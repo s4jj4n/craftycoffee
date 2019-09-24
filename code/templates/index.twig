@@ -29,15 +29,9 @@
     <div class="large-6 small-12 columns">
         <h3>Latest Coffee News</h3>
         <ul class="news-listing">
-            <li><a href="news/news-detail.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &raquo;</a></li>
-            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
-            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. &raquo;</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. &raquo;</a></li>
-            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
-            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &raquo;</a></li>
-            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
-            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. &raquo;</a></li>
+            {% for entry in craft.entries.section('news').limit(10).all() %}
+            <li><a href="{{ entry.url }}">{{ entry.title }} &raquo;</a></li>
+            {% endfor %}
         </ul>
     </div>
 </div>
