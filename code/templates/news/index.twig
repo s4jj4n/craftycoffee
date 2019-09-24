@@ -16,7 +16,7 @@
     <div class="row news-item first">
         <div class="large-12 small-12 columns">
             <h1><a href="{{ entry.url }}">{{ entry.title }}</a></h1>
-            <p class="byline">by {{ entry.author }} on January 1, 2017</p>
+            <p class="byline">by {{ entry.author }} on {{ entry.postDate | date('F j, Y') }}</p>
             {{ entry.newsBody }}
         </div>
     </div>
