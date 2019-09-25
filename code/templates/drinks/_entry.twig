@@ -18,8 +18,10 @@
             </div>
 
             {{ entry.pageCopy }}
-
-            <p><a href="../recipes/recipe-detail.html" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>
+            {%  set relatedRecipe = entry.relatedRecipe.one() %}
+            {% if relatedRecipe %}
+            <p><a href="{{ relatedRecipe.url }}" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>
+            {% endif %}
         </div>
     </div>
 {% endblock %}
