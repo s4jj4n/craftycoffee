@@ -1,0 +1,29 @@
+fieldLayouts:
+  4c6a86c9-f08e-4e8f-9141-45ecef20fd12:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: 'Recipe Name'
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3 # Drink Style
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d53a8a6f-d589-444a-82cf-b2638164a4a8 # Recipe Snapshot
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d99d371a-64de-4ff0-bb0e-b1a4ce816e58 # Recipe Contents
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Recipes
+        sortOrder: 1
+handle: recipes
+hasTitleField: true
+name: Recipes
+section: 655f7088-c858-4ec3-860d-716df652f038 # Recipes
+sortOrder: 1
+titleFormat: ''

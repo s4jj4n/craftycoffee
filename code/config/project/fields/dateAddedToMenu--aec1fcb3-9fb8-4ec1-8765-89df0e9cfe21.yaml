@@ -1,0 +1,13 @@
+contentColumnType: datetime
+fieldGroup: 46d0b950-d8bb-481e-bcdc-b0f6b62a4155
+handle: dateAddedToMenu
+instructions: ''
+name: 'Date added to menu'
+searchable: true
+settings:
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

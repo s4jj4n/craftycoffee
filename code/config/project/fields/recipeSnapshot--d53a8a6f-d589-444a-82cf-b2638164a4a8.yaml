@@ -1,0 +1,38 @@
+contentColumnType: text
+fieldGroup: 4220c21a-0099-4f08-90eb-c9ebf3befb17
+handle: recipeSnapshot
+instructions: ''
+name: 'Recipe Snapshot'
+searchable: true
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Snapshot Text'
+            -
+              - handle
+              - snapshotText
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

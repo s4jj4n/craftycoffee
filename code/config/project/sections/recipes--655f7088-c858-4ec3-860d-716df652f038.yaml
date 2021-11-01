@@ -1,0 +1,15 @@
+enableVersioning: true
+handle: recipes
+name: Recipes
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  706bd896-a738-4b80-a40a-19ef5e2ec936:
+    enabledByDefault: true
+    hasUrls: true
+    template: recipes/_entry
+    uriFormat: 'recipes/{slug}'
+type: channel

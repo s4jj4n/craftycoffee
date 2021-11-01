@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 4220c21a-0099-4f08-90eb-c9ebf3befb17
+handle: recipeContents
+instructions: ''
+name: 'Recipe Contents'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_recipecontents}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

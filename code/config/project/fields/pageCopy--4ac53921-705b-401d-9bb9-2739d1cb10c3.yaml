@@ -1,0 +1,20 @@
+contentColumnType: text
+fieldGroup: 46d0b950-d8bb-481e-bcdc-b0f6b62a4155
+handle: pageCopy
+instructions: ''
+name: 'Page Copy'
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Standard.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

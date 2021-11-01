@@ -1,0 +1,19 @@
+contentColumnType: string
+fieldGroup: 46d0b950-d8bb-481e-bcdc-b0f6b62a4155
+handle: drinkRecipe
+instructions: ''
+name: 'Drink Recipe'
+searchable: true
+settings:
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Add a drink recipe'
+  source: null
+  sources:
+    - 'section:655f7088-c858-4ec3-860d-716df652f038' # Recipes
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

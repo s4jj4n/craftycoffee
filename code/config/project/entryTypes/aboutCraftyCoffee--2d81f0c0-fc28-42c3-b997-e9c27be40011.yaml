@@ -1,0 +1,29 @@
+fieldLayouts:
+  854764cf-ee38-48d1-9f1a-a92f15b751e9:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: 'Page Title'
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 13099bd4-7175-4fd1-a84c-2c8154635242 # Subtitle
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 39f06104-4ce9-48ac-bda3-634abffe5fa7 # Page Intro
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 4ac53921-705b-401d-9bb9-2739d1cb10c3 # Page Copy
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+        name: About
+        sortOrder: 1
+handle: aboutCraftyCoffee
+hasTitleField: true
+name: 'About Crafty Coffee'
+section: dd3ea73f-da34-416e-98ce-e7e02e2a08f2 # About Crafty Coffee
+sortOrder: 1
+titleFormat: ''

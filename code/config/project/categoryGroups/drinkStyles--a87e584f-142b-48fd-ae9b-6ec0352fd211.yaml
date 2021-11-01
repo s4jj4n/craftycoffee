@@ -1,0 +1,20 @@
+fieldLayouts:
+  5ef73e46-5c67-4de8-bd55-abdce29b166d:
+    tabs:
+      -
+        fields:
+          06bd1d23-c457-49a5-8c15-be0c05f20b1c: # Style Description
+            required: false
+            sortOrder: 1
+        name: Styles
+        sortOrder: 1
+handle: drinkStyles
+name: 'Drink Styles'
+siteSettings:
+  706bd896-a738-4b80-a40a-19ef5e2ec936:
+    hasUrls: true
+    template: styles/_entry
+    uriFormat: 'styles/{slug}'
+structure:
+  maxLevels: 5
+  uid: 291e4465-e98d-4695-a80d-d1c6f315bf53

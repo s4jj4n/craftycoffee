@@ -1,0 +1,21 @@
+fieldLayouts:
+  ad2315cc-a0cb-4992-a940-cec7dcc8b546:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: 'Homepage Title'
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 13099bd4-7175-4fd1-a84c-2c8154635242 # Subtitle
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Common
+        sortOrder: 1
+handle: homepage
+hasTitleField: true
+name: Homepage
+section: 9f91c595-0193-4614-9988-9ce30da5ed90 # Homepage
+sortOrder: 1
+titleFormat: '{section.name|raw}'

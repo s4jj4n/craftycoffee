@@ -1,0 +1,61 @@
+field: d99d371a-64de-4ff0-bb0e-b1a4ce816e58 # Recipe Contents
+fieldLayouts:
+  ca30a4c1-269d-40aa-98d9-c3ac0205ad6a:
+    tabs:
+      -
+        fields:
+          b5e75135-d67c-4a05-9b74-a73c54a4057b: # Image Caption
+            required: false
+            sortOrder: 2
+          d43659da-1805-4284-8eca-0ca8437e61fc: # Image
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  b5e75135-d67c-4a05-9b74-a73c54a4057b: # Image Caption
+    contentColumnType: text
+    fieldGroup: null
+    handle: imageCaption
+    instructions: ''
+    name: 'Image Caption'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d43659da-1805-4284-8eca-0ca8437e61fc: # Image
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: ''
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: recipeImage
+name: 'Recipe Image'
+sortOrder: 1

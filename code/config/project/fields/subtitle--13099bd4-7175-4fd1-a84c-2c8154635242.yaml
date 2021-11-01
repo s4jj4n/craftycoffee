@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: 4471bad0-e360-4c7f-b2d6-b6a67e6b5183
+handle: subtitle
+instructions: ''
+name: Subtitle
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

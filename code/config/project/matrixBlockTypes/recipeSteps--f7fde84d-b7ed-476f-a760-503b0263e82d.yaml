@@ -1,0 +1,68 @@
+field: d99d371a-64de-4ff0-bb0e-b1a4ce816e58 # Recipe Contents
+fieldLayouts:
+  4ca12c0e-17b5-4e3f-aca3-def6b6a4ae7e:
+    tabs:
+      -
+        fields:
+          de8c1647-ede2-4eb9-93b5-784e098aab41: # Steps Content
+            required: false
+            sortOrder: 2
+          f1ba5b5a-110f-4849-a70b-8d5cb4d9e36f: # Steps Title
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  de8c1647-ede2-4eb9-93b5-784e098aab41: # Steps Content
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsContent
+    instructions: ''
+    name: 'Steps Content'
+    searchable: true
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Steps Instructions'
+                -
+                  - handle
+                  - stepsInstructions
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  f1ba5b5a-110f-4849-a70b-8d5cb4d9e36f: # Steps Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsTitle
+    instructions: ''
+    name: 'Steps Title'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: recipeSteps
+name: 'Recipe Steps'
+sortOrder: 4

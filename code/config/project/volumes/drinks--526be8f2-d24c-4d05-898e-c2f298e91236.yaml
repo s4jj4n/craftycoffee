@@ -1,0 +1,8 @@
+handle: drinks
+hasUrls: true
+name: Drinks
+settings:
+  path: '@webroot/images/uploads/drinks'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@web/images/uploads/drinks'

@@ -1,8 +1,9 @@
 version: '3'
 services:
-  happylager.test:
+  craftycoffee.test:
     container_name: craftycoffee.test
-    image: pagevamp/nginx-php7-fpm:7.2-stage
+    build:
+      context: .
     restart: always
     #env_file: .env
     environment:

@@ -1,0 +1,27 @@
+contentColumnType: string
+fieldGroup: 46d0b950-d8bb-481e-bcdc-b0f6b62a4155
+handle: drinkImage
+instructions: ''
+name: 'Drink Image'
+searchable: true
+settings:
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: '1'
+  selectionLabel: 'Add a drink image'
+  singleUploadLocationSource: 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+  targetSiteId: null
+  useSingleFolder: ''
+  validateRelatedElements: ''
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

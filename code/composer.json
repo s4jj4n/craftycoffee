@@ -1,7 +1,8 @@
 {
   "require": {
+    "php": "^7.3",
     "craftcms/ckeditor": "1.0.0-beta.2",
-    "craftcms/cms": "^3.0.0",
+    "craftcms/cms": "3.7.18.2",
     "craftcms/redactor": "2.4.0",
     "vlucas/phpdotenv": "^3.4.0"
   },
@@ -12,10 +13,7 @@
   },
   "config": {
     "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.0"
-    }
+    "optimize-autoloader": true
   },
   "scripts": {
     "post-root-package-install": [

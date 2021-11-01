@@ -1,0 +1,59 @@
+dateModified: 1635782555
+email:
+  fromEmail: s4jj4n@gmail.com
+  fromName: Craftycoffee
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
+    4ac53921-705b-401d-9bb9-2739d1cb10c3: 'Page Copy' # Page Copy
+    5efc3f24-2fcc-4bdc-a22a-fb295d2d2db9: Drinks # Drinks
+    06bd1d23-c457-49a5-8c15-be0c05f20b1c: 'Style Description' # Style Description
+    7abe6584-2c24-4dba-bee5-88399c442fca: Recipes # Recipes
+    9f91c595-0193-4614-9988-9ce30da5ed90: Homepage # Homepage
+    19b9e6f7-726c-436b-a382-bd9063476ad0: News # News
+    39f06104-4ce9-48ac-bda3-634abffe5fa7: 'Page Intro' # Page Intro
+    526be8f2-d24c-4d05-898e-c2f298e91236: Drinks # Drinks
+    655f7088-c858-4ec3-860d-716df652f038: Recipes # Recipes
+    943e4d86-0830-4297-b580-a8e878551fe0: 'Drink Recipe' # Drink Recipe
+    3149c307-8b38-4033-b7eb-e951301cdca6: 'News Body' # News Body
+    6260aee9-73bc-449e-aff6-3d208acec35e: 'Drink Image' # Drink Image
+    7486f4cb-b894-4539-9853-e7dcbf7fa3f5: 'Tip Content' # Tip Content
+    7761d4f2-acf8-408f-be7c-e8c61624d6c5: News # News
+    9703ea0e-6465-4b42-913d-c12428792570: Excerpt # Excerpt
+    13099bd4-7175-4fd1-a84c-2c8154635242: Subtitle # Subtitle
+    117076d2-865d-4007-970c-5c970d5a6a89: Homepage # Homepage
+    aec1fcb3-9fb8-4ec1-8765-89df0e9cfe21: 'Date added to menu' # Date added to menu
+    b5e75135-d67c-4a05-9b74-a73c54a4057b: 'Image Caption' # Image Caption
+    bda6e9dc-e6d0-49bd-84f5-c338659437f2: Ingredients # Ingredients
+    d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3: 'Drink Style' # Drink Style
+    d2ba998d-795f-4f1e-aa0b-6b04564565ec: Introduction # Introduction
+    d5a4185f-4eb7-4f6b-b6df-2b7fc400ec13: Drinks # Drinks
+    d53a8a6f-d589-444a-82cf-b2638164a4a8: 'Recipe Snapshot' # Recipe Snapshot
+    d99d371a-64de-4ff0-bb0e-b1a4ce816e58: 'Recipe Contents' # Recipe Contents
+    d43659da-1805-4284-8eca-0ca8437e61fc: Image # Image
+    dcf20ff3-f400-442d-a03d-581e38068ca8: 'Body Content' # Body Content
+    dd3ea73f-da34-416e-98ce-e7e02e2a08f2: 'About Crafty Coffee' # About Crafty Coffee
+    de8c1647-ede2-4eb9-93b5-784e098aab41: 'Steps Content' # Steps Content
+    f1ba5b5a-110f-4849-a70b-8d5cb4d9e36f: 'Steps Title' # Steps Title
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Craftycoffee
+  schemaVersion: 3.7.8
+  timeZone: Asia/Kathmandu
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

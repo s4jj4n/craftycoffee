@@ -1,0 +1,36 @@
+field: d99d371a-64de-4ff0-bb0e-b1a4ce816e58 # Recipe Contents
+fieldLayouts:
+  513bbd38-3223-4f22-8316-f8a94145f29d:
+    tabs:
+      -
+        fields:
+          dcf20ff3-f400-442d-a03d-581e38068ca8: # Body Content
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  dcf20ff3-f400-442d-a03d-581e38068ca8: # Body Content
+    contentColumnType: text
+    fieldGroup: null
+    handle: bodyContent
+    instructions: ''
+    name: 'Body Content'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: recipeCopy
+name: 'Recipe Copy'
+sortOrder: 3

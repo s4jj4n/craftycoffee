@@ -1,0 +1,41 @@
+fieldLayouts:
+  9ed38d65-ff11-4350-b2a1-b884b717a255:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: 'Drink Name'
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3 # Drink Style
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d2ba998d-795f-4f1e-aa0b-6b04564565ec # Introduction
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: aec1fcb3-9fb8-4ec1-8765-89df0e9cfe21 # Date added to menu
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 4ac53921-705b-401d-9bb9-2739d1cb10c3 # Page Copy
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 6260aee9-73bc-449e-aff6-3d208acec35e # Drink Image
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 943e4d86-0830-4297-b580-a8e878551fe0 # Drink Recipe
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Drink Details'
+        sortOrder: 1
+handle: drinks
+hasTitleField: true
+name: Drinks
+section: d5a4185f-4eb7-4f6b-b6df-2b7fc400ec13 # Drinks
+sortOrder: 1
+titleFormat: ''
