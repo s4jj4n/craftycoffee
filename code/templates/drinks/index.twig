@@ -20,8 +20,8 @@
 
                     <td><a href="{{ drink.url }}">{{ drink.title }}</a></td>
                     <td>{{ drink.dateAddedToMenu | date('F j, Y') }}</td>
-{#                    {% set style = drink.style.one() %}#}
-{#                    <td><a href="{{ style.url }}">{{ style.title }}</a></td>#}
+                    {% set style = drink.drinkStyle.one() %}
+                    <td><a href="{{ style.url }}">{{ style.title }}</a></td>
                 </tr>
                 {% endfor %}
 

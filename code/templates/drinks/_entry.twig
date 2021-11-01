@@ -20,10 +20,10 @@
             {{ entry.pageCopy }}
 
 
-{#            {%  set relatedRecipe = entry.relatedRecipe.one() %}#}
-{#            {% if relatedRecipe %}#}
-{#            <p><a href="{{ relatedRecipe.url }}" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>#}
-{#            {% endif %}#}
+            {%  set drinkRecipe = entry.drinkRecipe.one() %}
+            {% if drinkRecipe %}
+            <p><a href="{{ drinkRecipe.url }}" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>
+            {% endif %}
         </div>
     </div>
 {% endblock %}
