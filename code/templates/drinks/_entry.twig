@@ -14,14 +14,17 @@
     <div class="row">
         <div class="large-12 small-12 columns">
             <div class="intro large-12 small-12 columns text-center">
-                <p>{{ entry.drinkIntro }}</p>
+                <p>{{ entry.introduction }}</p>
             </div>
 
             {{ entry.pageCopy }}
-            {%  set relatedRecipe = entry.relatedRecipe.one() %}
-            {% if relatedRecipe %}
-            <p><a href="{{ relatedRecipe.url }}" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>
-            {% endif %}
+
+
+{#            {%  set relatedRecipe = entry.relatedRecipe.one() %}#}
+{#            {% if relatedRecipe %}#}
+{#            <p><a href="{{ relatedRecipe.url }}" class="button primary small radius">Make <i>{{ entry.title }}</i> at Home</a></p>#}
+{#            {% endif %}#}
         </div>
     </div>
 {% endblock %}
+
