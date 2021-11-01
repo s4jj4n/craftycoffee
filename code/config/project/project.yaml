@@ -1,19 +1,17 @@
-dateModified: 1635782555
+dateModified: 1635784971
 email:
   fromEmail: s4jj4n@gmail.com
   fromName: Craftycoffee
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
     4ac53921-705b-401d-9bb9-2739d1cb10c3: 'Page Copy' # Page Copy
     5efc3f24-2fcc-4bdc-a22a-fb295d2d2db9: Drinks # Drinks
+    5f1ec03d-89f6-4c1b-b9a0-5737468f9ce5: 'Public Schema' # Public Schema
     06bd1d23-c457-49a5-8c15-be0c05f20b1c: 'Style Description' # Style Description
     7abe6584-2c24-4dba-bee5-88399c442fca: Recipes # Recipes
+    7bfee9ef-5615-4eb5-af4c-7bd60ec68d01: Clothing # Clothing
     9f91c595-0193-4614-9988-9ce30da5ed90: Homepage # Homepage
     19b9e6f7-726c-436b-a382-bd9063476ad0: News # News
     39f06104-4ce9-48ac-bda3-634abffe5fa7: 'Page Intro' # Page Intro
@@ -30,6 +28,7 @@ meta:
     aec1fcb3-9fb8-4ec1-8765-89df0e9cfe21: 'Date added to menu' # Date added to menu
     b5e75135-d67c-4a05-9b74-a73c54a4057b: 'Image Caption' # Image Caption
     bda6e9dc-e6d0-49bd-84f5-c338659437f2: Ingredients # Ingredients
+    c0b3a139-5646-4787-ba59-476488591b7b: New # New
     d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3: 'Drink Style' # Drink Style
     d2ba998d-795f-4f1e-aa0b-6b04564565ec: Introduction # Introduction
     d5a4185f-4eb7-4f6b-b6df-2b7fc400ec13: Drinks # Drinks
@@ -39,14 +38,20 @@ meta:
     dcf20ff3-f400-442d-a03d-581e38068ca8: 'Body Content' # Body Content
     dd3ea73f-da34-416e-98ce-e7e02e2a08f2: 'About Crafty Coffee' # About Crafty Coffee
     de8c1647-ede2-4eb9-93b5-784e098aab41: 'Steps Content' # Steps Content
+    df069cec-4e33-420e-8304-aaf0665e7110: Dummy # Dummy
     f1ba5b5a-110f-4849-a70b-8d5cb4d9e36f: 'Steps Title' # Steps Title
 plugins:
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: MO990LDOGWCI2V96BHVESL89
+    schemaVersion: 3.4.12
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Craftycoffee
   schemaVersion: 3.7.8

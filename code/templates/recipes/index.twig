@@ -21,7 +21,7 @@
                 <tr>
                     <td><a href="{{ recipe.url }}">{{ recipe.title }}</a></td>
                     <td>{{ recipe.postDate | date('F j, Y') }}</td>
-                    {% set style = recipe.style.one() %}
+                    {% set style = recipe.drinkStyle.one() %}
                     <td><a href="{{ style.url }}">{{ style.title }}</a></td>
                 </tr>
                 {% endfor %}

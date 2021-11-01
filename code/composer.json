@@ -3,6 +3,7 @@
     "php": "^7.3",
     "craftcms/ckeditor": "1.0.0-beta.2",
     "craftcms/cms": "3.7.18.2",
+    "craftcms/commerce": "3.4.6",
     "craftcms/redactor": "2.4.0",
     "vlucas/phpdotenv": "^3.4.0"
   },
