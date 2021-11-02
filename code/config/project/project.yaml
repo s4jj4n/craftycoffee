@@ -1,4 +1,4 @@
-dateModified: 1635784971
+dateModified: 1635838641
 email:
   fromEmail: s4jj4n@gmail.com
   fromName: Craftycoffee
@@ -7,14 +7,20 @@ meta:
   __names__:
     2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
     4ac53921-705b-401d-9bb9-2739d1cb10c3: 'Page Copy' # Page Copy
+    5acf2101-bfc4-42be-8e62-90b66043ab7c: Image # Image
     5efc3f24-2fcc-4bdc-a22a-fb295d2d2db9: Drinks # Drinks
     5f1ec03d-89f6-4c1b-b9a0-5737468f9ce5: 'Public Schema' # Public Schema
+    6a03726c-31cc-4cf7-9822-ecd15bd38d21: Supplies # Supplies
     06bd1d23-c457-49a5-8c15-be0c05f20b1c: 'Style Description' # Style Description
     7abe6584-2c24-4dba-bee5-88399c442fca: Recipes # Recipes
     7bfee9ef-5615-4eb5-af4c-7bd60ec68d01: Clothing # Clothing
+    8bbd7ae6-eb99-4110-8cfa-4bbe8c227805: 'Product Description' # Product Description
+    9eaa3f28-7281-4b44-9077-a78d730e949e: Caption # Caption
     9f91c595-0193-4614-9988-9ce30da5ed90: Homepage # Homepage
+    18e44013-6179-43b9-8ed4-f25056626fb3: Store # Store
     19b9e6f7-726c-436b-a382-bd9063476ad0: News # News
     39f06104-4ce9-48ac-bda3-634abffe5fa7: 'Page Intro' # Page Intro
+    156a9889-c04c-499d-aa69-811eb94fcf25: Text # Text
     526be8f2-d24c-4d05-898e-c2f298e91236: Drinks # Drinks
     655f7088-c858-4ec3-860d-716df652f038: Recipes # Recipes
     943e4d86-0830-4297-b580-a8e878551fe0: 'Drink Recipe' # Drink Recipe
@@ -25,6 +31,7 @@ meta:
     9703ea0e-6465-4b42-913d-c12428792570: Excerpt # Excerpt
     13099bd4-7175-4fd1-a84c-2c8154635242: Subtitle # Subtitle
     117076d2-865d-4007-970c-5c970d5a6a89: Homepage # Homepage
+    a1a4a7ad-9e58-4ac1-ad90-c89b0cc3f5d1: 'Product Listing' # Product Listing
     aec1fcb3-9fb8-4ec1-8765-89df0e9cfe21: 'Date added to menu' # Date added to menu
     b5e75135-d67c-4a05-9b74-a73c54a4057b: 'Image Caption' # Image Caption
     bda6e9dc-e6d0-49bd-84f5-c338659437f2: Ingredients # Ingredients
@@ -32,14 +39,18 @@ meta:
     d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3: 'Drink Style' # Drink Style
     d2ba998d-795f-4f1e-aa0b-6b04564565ec: Introduction # Introduction
     d5a4185f-4eb7-4f6b-b6df-2b7fc400ec13: Drinks # Drinks
+    d8ff3e4e-bdee-443c-a43e-a081a29647de: 'Description Copy' # Description Copy
     d53a8a6f-d589-444a-82cf-b2638164a4a8: 'Recipe Snapshot' # Recipe Snapshot
     d99d371a-64de-4ff0-bb0e-b1a4ce816e58: 'Recipe Contents' # Recipe Contents
     d43659da-1805-4284-8eca-0ca8437e61fc: Image # Image
     dcf20ff3-f400-442d-a03d-581e38068ca8: 'Body Content' # Body Content
     dd3ea73f-da34-416e-98ce-e7e02e2a08f2: 'About Crafty Coffee' # About Crafty Coffee
+    ddee43cb-c5c5-4e12-acca-b69caab8d42e: 'Product Image' # Product Image
     de8c1647-ede2-4eb9-93b5-784e098aab41: 'Steps Content' # Steps Content
     df069cec-4e33-420e-8304-aaf0665e7110: Dummy # Dummy
     f1ba5b5a-110f-4849-a70b-8d5cb4d9e36f: 'Steps Title' # Steps Title
+    f1f19195-7a73-47c5-b1f4-bb195309392e: Supplies # Supplies
+    f92acdf9-25cc-4a01-b553-93987b12da6b: 'Product Image' # Product Image
 plugins:
   commerce:
     edition: pro

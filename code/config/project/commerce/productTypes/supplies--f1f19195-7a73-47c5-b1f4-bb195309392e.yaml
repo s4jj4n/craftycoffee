@@ -1,0 +1,40 @@
+descriptionFormat: ''
+handle: supplies
+hasDimensions: false
+hasProductTitleField: true
+hasVariantTitleField: false
+hasVariants: false
+name: Supplies
+productFieldLayouts:
+  16ffa057-6af8-4917-b95b-11cb4cac36fe:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f92acdf9-25cc-4a01-b553-93987b12da6b # Product Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8bbd7ae6-eb99-4110-8cfa-4bbe8c227805 # Product Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Product Information'
+        sortOrder: 1
+productTitleFormat: ''
+siteSettings:
+  706bd896-a738-4b80-a40a-19ef5e2ec936:
+    hasUrls: true
+    template: store/_product
+    uriFormat: 'store/supplies/{slug}'
+skuFormat: ''
+titleFormat: '{product.title}'

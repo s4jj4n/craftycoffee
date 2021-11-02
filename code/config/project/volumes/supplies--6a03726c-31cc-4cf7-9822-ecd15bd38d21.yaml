@@ -1,12 +1,5 @@
-descriptionFormat: ''
-handle: clothing
-hasDimensions: true
-hasProductTitleField: true
-hasVariantTitleField: false
-hasVariants: false
-name: Clothing
-productFieldLayouts:
-  7870201d-de55-4e62-893f-1efa73a0de7b:
+fieldLayouts:
+  5f936f14-f3c1-4bed-ba5f-a750b9aa9267:
     tabs:
       -
         elements:
@@ -30,16 +23,18 @@ productFieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\commerce\fieldlayoutelements\ProductTitleField
+            type: craft\fieldlayoutelements\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-productTitleFormat: ''
-siteSettings:
-  706bd896-a738-4b80-a40a-19ef5e2ec936:
-    hasUrls: true
-    template: store/_product
-    uriFormat: 'store/clothing/{slug}'
-skuFormat: ''
-titleFormat: '{product.title}'
+handle: supplies
+hasUrls: true
+name: Supplies
+settings:
+  path: '@webroot/images/products/supplies'
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
+type: craft\volumes\Local
+url: '@web/images/products/supplies'

@@ -1,0 +1,85 @@
+field: 8bbd7ae6-eb99-4110-8cfa-4bbe8c227805 # Product Description
+fieldLayouts:
+  436441a9-fb8c-4fa7-a324-787f4a2863c4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5acf2101-bfc4-42be-8e62-90b66043ab7c # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9eaa3f28-7281-4b44-9077-a78d730e949e # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5acf2101-bfc4-42be-8e62-90b66043ab7c: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:6a03726c-31cc-4cf7-9822-ecd15bd38d21' # Supplies
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a product image.'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:526be8f2-d24c-4d05-898e-c2f298e91236' # Drinks
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:6a03726c-31cc-4cf7-9822-ecd15bd38d21' # Supplies
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  9eaa3f28-7281-4b44-9077-a78d730e949e: # Caption
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: ''
+    name: Caption
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: productImage
+name: 'Product Image'
+sortOrder: 2
