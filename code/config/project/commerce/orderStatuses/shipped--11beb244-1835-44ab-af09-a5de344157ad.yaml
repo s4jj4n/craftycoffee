@@ -1,0 +1,6 @@
+color: green
+default: false
+description: 'Your order is on the way!'
+handle: shipped
+name: Shipped
+sortOrder: 99

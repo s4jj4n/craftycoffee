@@ -1,0 +1,6 @@
+color: purple
+default: false
+description: 'Your order was packed and ready for shipping.'
+handle: fulfilled
+name: Fulfilled
+sortOrder: 99

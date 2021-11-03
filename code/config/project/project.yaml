@@ -1,4 +1,4 @@
-dateModified: 1635838641
+dateModified: 1635929754
 email:
   fromEmail: s4jj4n@gmail.com
   fromName: Craftycoffee
@@ -6,6 +6,7 @@ email:
 meta:
   __names__:
     2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
+    3ec8f39c-9c82-44df-b20f-6535d4533106: Exception # Exception
     4ac53921-705b-401d-9bb9-2739d1cb10c3: 'Page Copy' # Page Copy
     5acf2101-bfc4-42be-8e62-90b66043ab7c: Image # Image
     5efc3f24-2fcc-4bdc-a22a-fb295d2d2db9: Drinks # Drinks
@@ -17,9 +18,11 @@ meta:
     8bbd7ae6-eb99-4110-8cfa-4bbe8c227805: 'Product Description' # Product Description
     9eaa3f28-7281-4b44-9077-a78d730e949e: Caption # Caption
     9f91c595-0193-4614-9988-9ce30da5ed90: Homepage # Homepage
+    11beb244-1835-44ab-af09-a5de344157ad: Shipped # Shipped
     18e44013-6179-43b9-8ed4-f25056626fb3: Store # Store
     19b9e6f7-726c-436b-a382-bd9063476ad0: News # News
     39f06104-4ce9-48ac-bda3-634abffe5fa7: 'Page Intro' # Page Intro
+    52fb5d77-002f-44a0-8a3e-c37df5815e4b: Fulfilled # Fulfilled
     156a9889-c04c-499d-aa69-811eb94fcf25: Text # Text
     526be8f2-d24c-4d05-898e-c2f298e91236: Drinks # Drinks
     655f7088-c858-4ec3-860d-716df652f038: Recipes # Recipes
@@ -35,6 +38,7 @@ meta:
     aec1fcb3-9fb8-4ec1-8765-89df0e9cfe21: 'Date added to menu' # Date added to menu
     b5e75135-d67c-4a05-9b74-a73c54a4057b: 'Image Caption' # Image Caption
     bda6e9dc-e6d0-49bd-84f5-c338659437f2: Ingredients # Ingredients
+    bdc66a01-d016-4a7f-ad3a-21cff010aecd: Processing # Processing
     c0b3a139-5646-4787-ba59-476488591b7b: New # New
     d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3: 'Drink Style' # Drink Style
     d2ba998d-795f-4f1e-aa0b-6b04564565ec: Introduction # Introduction

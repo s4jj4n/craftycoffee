@@ -1,0 +1,6 @@
+color: orange
+default: true
+description: 'Your order was received and is now in progress.'
+handle: processing
+name: Processing
+sortOrder: 99

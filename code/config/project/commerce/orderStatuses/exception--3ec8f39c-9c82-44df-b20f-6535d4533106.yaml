@@ -1,0 +1,6 @@
+color: red
+default: false
+description: ''
+handle: exception
+name: Exception
+sortOrder: 99
