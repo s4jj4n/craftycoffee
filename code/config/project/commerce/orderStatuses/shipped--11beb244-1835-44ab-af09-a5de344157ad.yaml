@@ -1,6 +1,8 @@
 color: green
 default: false
 description: 'Your order is on the way!'
+emails:
+  d078ee4b-05b5-4a41-af67-b92e63ffd586: d078ee4b-05b5-4a41-af67-b92e63ffd586 # Shipped
 handle: shipped
 name: Shipped
 sortOrder: 99

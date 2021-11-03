@@ -1,6 +1,8 @@
 color: orange
 default: true
 description: 'Your order was received and is now in progress.'
+emails:
+  d9d6051e-2289-494e-8703-cd52e142a903: d9d6051e-2289-494e-8703-cd52e142a903 # Order Confirmation
 handle: processing
 name: Processing
 sortOrder: 99

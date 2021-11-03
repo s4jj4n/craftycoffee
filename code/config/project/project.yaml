@@ -1,8 +1,14 @@
-dateModified: 1635929754
+dateModified: 1635932395
 email:
   fromEmail: s4jj4n@gmail.com
   fromName: Craftycoffee
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    password: Hecaniox369
+    timeout: '10'
+    username: s4jj4n@gmail.com
+  transportType: craft\mail\transportadapters\Gmail
 meta:
   __names__:
     2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
@@ -41,9 +47,11 @@ meta:
     bdc66a01-d016-4a7f-ad3a-21cff010aecd: Processing # Processing
     c0b3a139-5646-4787-ba59-476488591b7b: New # New
     d026e1d8-9a40-41e2-a7a6-4d3dbd2cd1a3: 'Drink Style' # Drink Style
+    d078ee4b-05b5-4a41-af67-b92e63ffd586: Shipped # Shipped
     d2ba998d-795f-4f1e-aa0b-6b04564565ec: Introduction # Introduction
     d5a4185f-4eb7-4f6b-b6df-2b7fc400ec13: Drinks # Drinks
     d8ff3e4e-bdee-443c-a43e-a081a29647de: 'Description Copy' # Description Copy
+    d9d6051e-2289-494e-8703-cd52e142a903: 'Order Confirmation' # Order Confirmation
     d53a8a6f-d589-444a-82cf-b2638164a4a8: 'Recipe Snapshot' # Recipe Snapshot
     d99d371a-64de-4ff0-bb0e-b1a4ce816e58: 'Recipe Contents' # Recipe Contents
     d43659da-1805-4284-8eca-0ca8437e61fc: Image # Image
