@@ -27,7 +27,13 @@
                     <span class="alert label">Out of Stock</span>
                 {% endif %}
             </p>
-            <h4>{{ variant.price | currency('USD') }}</h4>
+            <h4>
+                {% if variant.onSale %}
+                    <strike>{{ variant.price | currency('USD') }}</strike>{{ variant.salePrice | currency('USD') }}
+                {% else %}
+                    {{ variant.price | currency('USD') }}
+                {% endif %}
+            </h4>
             <p>SKU: {{ variant.sku }}</p>
 
             {# Add to Cart Button #}
