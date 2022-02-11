@@ -1,14 +1,18 @@
-dateModified: 1635932395
+dateModified: 1644482895
 email:
-  fromEmail: s4jj4n@gmail.com
+  fromEmail: crew@fieldnotesbrand.com
   fromName: Craftycoffee
   replyToEmail: null
   template: ''
   transportSettings:
-    password: Hecaniox369
+    encryptionMethod: tls
+    host: $SMTP_HOST
+    password: $SMTP_PASS
+    port: $SMTP_PORT
     timeout: '10'
-    username: s4jj4n@gmail.com
-  transportType: craft\mail\transportadapters\Gmail
+    useAuthentication: '1'
+    username: $SMTP_USER
+  transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
     2d81f0c0-fc28-42c3-b997-e9c27be40011: 'About Crafty Coffee' # About Crafty Coffee
